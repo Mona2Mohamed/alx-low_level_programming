@@ -3,9 +3,10 @@
 #include <stdlib.h>
 
 /**
- * *main-program entry point
- * Return: Always 0 (Success)
+ * main - Entry Point
+ * Return:Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
