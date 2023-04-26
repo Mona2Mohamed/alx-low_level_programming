@@ -1,7 +1,4 @@
 #!/bin/bash
-
-echo 'write a commit'
-read var 
 git add .
-git commit -m  '${var}'
+git commit -m  '0x02-functions_nested_loops'
 git push
