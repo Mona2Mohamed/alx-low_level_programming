@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git add .
+git commit -m "0X03 -C Debbuging"
+git push
