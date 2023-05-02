@@ -11,9 +11,13 @@ void _puts(char *str)
 {
 	int p = 0;
 
-	while (*(str + p) != 0)
+	while (str[p] >= 0)
 	{
-		_putchar(*(str + p));
+		if (str[p] == '\0')
+		{
+			_putchar('\n');
+			break;
+		_putchar(str[p]);
 		p++;
 	}
 }
