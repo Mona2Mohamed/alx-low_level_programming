@@ -9,16 +9,15 @@
 
 void _puts(char *str)
 {
-	int p = 0;
-
-	while (str[p] >= 0)
+	int count = 0;
+	while (count >= 0)
 	{
-		if (str[p] == '\0')
+		if (str[count] == '\0')
 		{
 			_putchar('\n');
 			break;
 		}
-		_putchar(str[p]);
-		p++;
+		_putchar(str[count]);
+		count++;
 	}
 }
