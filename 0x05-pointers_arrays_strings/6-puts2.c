@@ -8,12 +8,17 @@
 
 void puts2(char *str)
 {
-	int l;
+	int count = 0;
 
-	for (l = 0; str[l] != '\0'; l++)
+	while (count >= 0)
 	{
-		if (str[l] % 2 == 0)
-			_putchar(str[l]);
+		if (str[count] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		if (count % 2 == 0)
+			_putchar(str[count]);
+		count++;
 	}
-	_putchar('\n');
 }
