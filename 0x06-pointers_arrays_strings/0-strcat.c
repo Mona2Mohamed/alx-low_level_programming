@@ -1,10 +1,13 @@
 #include "main.h"
 
 /*
-* * _strcat-function appends the src string to the dest string
-* @dest:first string.
-* @src:second string.
-* Retrun:string dest.
+*  _strcat-function that concatenates
+*  	two string
+*
+* @dest: pointer to destenation input
+* @src: pointer to sourse input
+*
+* Retrun: pointer to evaluating string @dest.
 */
 
 char *_strcat(char *dest, char *src)
