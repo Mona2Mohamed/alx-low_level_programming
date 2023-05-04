@@ -1,14 +1,13 @@
 #include "main.h"
 
-/*
-*  _strcat-function that concatenates
-*  	two string
-*
-* @dest: pointer to destenation input
-* @src: pointer to sourse input
-*
-* Retrun: pointer to evaluating string @dest.
-*/
+/**
+ * _strcat - concatenates two strings
+ * @dest: input value
+ * @src: input value
+ *
+ * Return: void
+ */
+
 
 char *_strcat(char *dest, char *src)
 {
