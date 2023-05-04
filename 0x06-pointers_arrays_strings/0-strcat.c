@@ -7,7 +7,7 @@
  * Retrun:string dest.
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int i, x;
 
@@ -16,7 +16,7 @@ char *_strcat(char *dest, char *src);
 	while (dest[x])
 		x++;
 
-	for(i = 0; src[i]; i++)
+	for (i = 0; src[i]; i++)
 		dest[x++] = src[i];
 
 	return (dest);
