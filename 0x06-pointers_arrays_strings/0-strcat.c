@@ -1,11 +1,11 @@
 #include "main.h"
 
 /*
- * *_strcat-cincatenates two string.
- * @dest:first string.
- * @src:second string.
- * Retrun:string dest.
- */
+* * _strcat-function appends the src string to the dest string
+* @dest:first string.
+* @src:second string.
+* Retrun:string dest.
+*/
 
 char *_strcat(char *dest, char *src)
 {
