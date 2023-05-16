@@ -32,8 +32,10 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		for (n = 0; av[i][n]; n++)
+		{
 			str[r] = av[i][n];
-		r++;
+			r++;
+		}
 	}
 
 	if (str[r] == '\0')
