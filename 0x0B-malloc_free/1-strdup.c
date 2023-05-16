@@ -17,6 +17,8 @@ char *_strdup(char *str)
 
 	for (; str[size] != '\0'; size++)
 		;
+
+	/*+1 on the size puts the end of string character*/
 	x = malloc(size * sizeof(*str) + 1);
 
 	if (x == 0)
